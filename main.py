@@ -188,4 +188,4 @@ def not_found(e):
   return render_template('custom.html'), 404
 
 
-app.run(debug=True)
+app.run(debug=False)
